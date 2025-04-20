@@ -1,40 +1,12 @@
-# Luxor Frontend
+# React + Vite
 
-Welcome to the Luxor Frontend repository, the official web application interface for Luxor 1.0.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Overview
+Currently, two official plugins are available:
 
-The Luxor Frontend is a modern, responsive web app built with React and Vite, designed to provide an intuitive and seamless user experience. It includes a dynamic chat panel that allows interaction with Luxor's intelligent system.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Features
+## Expanding the ESLint configuration
 
-- Responsive and intuitive user interface
-- Real-time chat capabilities
-- Secure and efficient integration with backend services
-- Easily deployable on various platforms
-
-## Tech Stack
-
-- **React**: A JavaScript library for building user interfaces
-- **Vite**: A rapid frontend tooling solution for building and deploying React applications
-
-## Installation
-
-To run this project locally, follow these simple steps:
-
-```bash
-npm install
-npm run dev
-```
-
-## Deployment
-
-You can deploy this frontend easily with providers such as Vercel or Netlify.
-
-## Support
-
-For any questions or assistance, please contact the repository maintainers.
-
----
-
-*Copyright © 2025 BluheLuxor.*
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
